@@ -1,0 +1,27 @@
+1、在本地仓库右键gitbashhere或者是git bash cd命令
+	cd d:/github
+
+2、输入git init 会生成.git文件
+
+3、将要上传的代码复制到文件夹下如D:/github的文件夹下
+
+4、输入git add .
+
+5、输入git commit -m "注释--jupyternotebook"
+
+6、在GitHub上新建一个代码仓库
+
+7、将本地仓库关联到GitHub新建仓库即远程仓库中
+	git remote add origin git@github.com/icefoxde/imooc_craw_baike.git
+
+8、gitremote -v查看远程仓库版本
+	git status 查看本地仓库当前状态
+
+9、输入git push origin master将代码上传至GitHub远程仓库中，会报错
+
+10、输入git pull会报错，需要指定对应pull的目标
+
+11、输入git pull --rebase origin master
+
+12、输入git push origin master
+	将本地仓库代码上传至GitHub远程仓库，刷新即可
